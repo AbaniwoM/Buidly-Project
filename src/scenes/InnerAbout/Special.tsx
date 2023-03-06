@@ -14,16 +14,16 @@ const Special = () => {
             <div className="fst">
             {
               <SpecialCard 
-              img_src={Monitor} 
-              text={"Web Design"}
+              spe_img={Monitor} 
+              spe_text={"Web Design"}
               />
             }
           </div>
           <div className="scd">
             {
               <SpecialCard 
-              img_src={Puzzle} 
-              text={"Intuitive Thinkers"}
+              spe_img={Puzzle} 
+              spe_text={"Intuitive Thinkers"}
               />
             }
           </div>

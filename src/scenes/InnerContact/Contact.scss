@@ -7,11 +7,29 @@
     height: 120vh;
     @media screen and (max-width: 425px) {
         flex-direction: column;
+        gap: 80px;
+        height: 195vh;
+        padding-bottom: 80px;
+    }
+    @media screen and (max-width: 699px) and (min-width: 426px) {
+        flex-direction: column;
+        gap: 80px;
+        height: 195vh;
+        padding-bottom: 80px;
     }
 }
 
 .left {
    width: 50%;
+   @media screen and (max-width: 425px) {
+     width: 100%;
+   }
+   @media screen and (max-width: 699px) and (min-width: 426px) {
+    width: 100%;
+   }
+   @media screen and (max-width: 782px) and (min-width: 700px) {
+    width: 45%;
+   }
 }
 
 .right {
@@ -19,83 +37,24 @@
     flex-direction: column;
     gap: 18px;
     width: 30%;
-}
-
-.contact-form {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 25px;
-    justify-content: center;
-    padding-left: 50px;
-    background-color: white;
-    height: 92vh;
     @media screen and (max-width: 425px) {
-        min-width: 190%;
-        margin-left: 12px;
-        padding-left: 40px;
+        width: 100%;
+        gap: 30px;
+        padding: 10px; 
     }
-}
-
-.contact-form h2 {
-    color: rgb(54, 54, 54);
-}
-
-.name {
-    display: flex;
-    gap: 30px;
-    @media screen and (max-width: 425px) {
-        flex-direction: column;
+    @media screen and (max-width: 699px) and (min-width: 426px) {
+        width: 100%;
+        gap: 30px;
+        padding: 10px;
     }
-}
-
-.first-name input {
-    border-radius: 20px;
-    border: 1px solid rgb(160, 158, 158);
-    background: transparent;
-    padding: 10px 30px 10px 20px;
-    outline: none;
-    @media screen and (max-width: 425px) {
-        padding: 10px 130px 10px 20px;
+    @media screen and (max-width: 782px) and (min-width: 700px) {
+        gap: 25px;
+        width: 35%;
     }
-}
-
-.last-name input {
-    border-radius: 20px;
-    border: 1px solid rgb(160, 158, 158);
-    background: transparent;
-    padding: 10px 30px 10px 20px;
-    outline: none;
-    @media screen and (max-width: 425px) {
-        padding: 10px 130px 10px 20px;
+    @media screen and (max-width: 1000px) and (min-width: 701px) {
+        width: 38%;
+        gap: 30px;
     }
-}
-
-.email input {
-    border-radius: 20px;
-    border: 1px solid rgb(160, 158, 158);
-    background: transparent;
-    padding: 10px 0px 10px 20px;
-    width: 88.5%;
-    outline: none;
-}
-
-.subject input {
-    border-radius: 20px;
-    border: 1px solid rgb(160, 158, 158);
-    background: transparent;
-    padding: 10px 0px 10px 20px;
-    width: 88.5%;
-    outline: none;
-}
-
-.message input {
-    border-radius: 20px;
-    border: 1px solid rgb(160, 158, 158);
-    background: transparent;
-    padding: 12px 0px 120px 20px;
-    width: 88.5%;
-    outline: none;
 }
 
 .contact-detail {
@@ -106,9 +65,9 @@
     height: 38vh;
     justify-content: center;
     background-color: white;
-    @media screen and (max-width: 425px) {
-        min-width: 190%;
-        margin-left: 12px;
+    @media screen and (max-width: 782px) and (min-width: 700px) {
+        height: 41vh;
+        margin-top: 8px;
     }
 }
 
@@ -129,6 +88,9 @@
     height: 45vh;
     justify-content: center;
     background-color: white;
+    @media screen and (max-width: 782px) and (min-width: 700px) {
+        height: 55vh;
+    }
 }
 
 .contact-info h3 {
@@ -140,23 +102,6 @@
     line-height: 25px;
 }
 
-.contact-form button {
-    height: 7vh;
-    width: 28%;
-    border-radius: 30px;
-    border: none;
-    background-color: blue;
-    color: white;
-    @media screen and (max-width: 425px) {
-        width: 42%;
-    }
-}
-
-.contact-form button:hover {
-    cursor: pointer;
-    background-color: rgb(39, 39, 214);
-}
-
 .contact-info button {
     height: 7vh;
     width: 38%;
@@ -164,6 +109,12 @@
     border: none;
     background-color: blue;
     color: white;
+    @media screen and (max-width: 699px) and (min-width: 426px) {
+        width: 30%;
+    }
+    @media screen and (max-width: 782px) and (min-width: 700px) {
+        width: 52%;
+    }
 }
 
 .contact-info button:hover {

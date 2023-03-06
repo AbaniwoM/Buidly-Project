@@ -2,24 +2,24 @@ import React from 'react';
 import "./SpecialCard.scss";
 
 interface SpecialCardProps {
-    img_src: string;
-    text: string;
+    spe_img: string;
+    spe_text: string;
 }
 
-const SpecialCard = ({ img_src, text }: SpecialCardProps) => {
+const SpecialCard = ({ spe_img, spe_text }: SpecialCardProps) => {
   return (
-    <div className="container">
-       <div className="top">
+    <div className="spe-container">
+       <div className="spe-top">
           <div>
             <img 
-              className="top-img"
-              src= {img_src} 
-              alt= {text + "img"}
+              className="spe-top-img"
+              src= {spe_img} 
+              alt= {spe_text + "img"}
             />
           </div>
-          <div className="texts">{text}</div>
+          <div className="spe-texts">{spe_text}</div>
        </div>
-       <div className="btm">
+       <div className="spe-btm">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
         <h3>Learn More</h3>
        </div>

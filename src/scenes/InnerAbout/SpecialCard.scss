@@ -1,35 +1,32 @@
-.container {
+.spe-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.top {
+.spe-top {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.top-img {
+.spe-top-img {
     color: rgb(61, 61, 61);
     height: 7vh;
 }
 
-.texts {
+.spe-texts {
     color: rgb(102, 101, 101);
     font-size: 1.3rem;
-    @media screen and (max-width: 843px) and (min-width: 426px) {
-        margin-left: -26px;
-    }
 }
 
-.container h3 {
+.spe-container h3 {
     text-decoration: underline;
     cursor: pointer;
 }
 
-.container p {
+.spe-container p {
     width: 75%;
     line-height: 30px;
     color: rgb(102, 101, 101);
@@ -38,18 +35,18 @@
     }
 }
 
-.btm {
+.spe-btm {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.btm h3 {
+.spe-btm h3 {
     color: blue;
     font-weight: lighter;
 }
 
-.btm p {
+.spe-btm p {
     @media screen and (max-width: 843px) and (min-width: 426px) {
         width: 85%;
     }

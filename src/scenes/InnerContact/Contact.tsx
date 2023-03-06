@@ -1,12 +1,13 @@
 import React from 'react';
 import "./Contact.scss";
+import ContactCard from './ContactCard';
 
 const Contact = () => {
   const win: Window = window;
   return (
     <div className="conCont">
         <div className="left">
-        <div className="contact-form">
+        {/* <div className="contact-form">
             <h2>Contact Form</h2>
             <div className="name">
                 <div className="first-name">
@@ -26,6 +27,9 @@ const Contact = () => {
                 <input placeholder="Write your notes or questions here..." type="msg" />
             </div>
             <button>SEND MESSAGE</button>
+        </div> */}
+        <div className="contact-card">
+        <ContactCard />
         </div>
         </div>
         <div className="right">
