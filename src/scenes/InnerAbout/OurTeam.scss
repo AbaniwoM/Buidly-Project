@@ -1,0 +1,34 @@
+.ourTeam {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 170px;
+    border-bottom: 1px solid rgb(221, 220, 220);
+    padding-bottom: 80px;
+    @media screen and (max-width: 700px) {
+        margin-top: 140px;
+    }
+}
+
+.ourTeam h1 {
+    color: blue;
+}
+
+.tmLine {
+    border-bottom: 3px solid blue;
+    width: 6%;
+    margin-top: 5px;
+}
+
+.tmBoxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 78px;
+    margin-top: 50px;
+    @media screen and (max-width: 843px) {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}

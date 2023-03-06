@@ -1,0 +1,20 @@
+.innerBg {
+    background-image: url("../Images/freepik.jpg");
+    min-height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.innerBg h1 {
+    font-size: 3rem;
+}
+
+.innerBg p {
+    font-size: 1.3rem;
+}

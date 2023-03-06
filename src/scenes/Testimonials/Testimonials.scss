@@ -1,0 +1,53 @@
+.testCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.testCont h1 {
+    font-size: 3rem;  
+}
+
+.testLine {
+    border-bottom: 3px solid blue;
+    width: 7%;
+    margin-top: 10px;
+}
+
+.slid {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.slid .slick-arrow.slick-prev,
+.slid .slick-arrow.slick-next {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    border: 5px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    display: none;
+}
+
+.slick-arrow.slick-next {
+    right: -70px;
+}
+
+.slick-arrow.slick-prev {
+    left: -70px;
+}
+
+.slid .slick-dots li button:before {
+    font-size: 15px;
+}
+
+.slid .slick-dots li {
+    top: 18px;
+}

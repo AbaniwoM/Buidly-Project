@@ -1,0 +1,191 @@
+.heroContainer {
+    background-image: url("../../component/Images/freepik.jpg");
+    min-height: 130vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    // gap: 110vh;
+    align-items: center;
+    @media screen and (max-width: 425px) {
+        max-height: 70vh;
+    }
+    @media screen and (max-width: 768px) and (min-width: 426px) {
+        max-height: 70vh;
+    }
+    @media screen and (max-width: 1795px) and (min-width: 769px) {
+        gap: 80px;
+    }
+}
+
+.heroNote {
+    color: rgb(177, 174, 174);
+    font-style: italic;
+    
+}
+
+.txt:hover {
+    color: rgb(112, 111, 111);
+    cursor: pointer;
+}
+
+.mainText {
+    @media screen and (max-width: 425px) {
+        position: absolute; 
+        font-size: 1.3rem; 
+        margin-left: 10px;   
+    }
+    @media screen and (max-width: 768px) and (min-width: 426px) {
+        position: absolute; 
+        font-size: 1.5rem; 
+        margin-left: 20px;
+    }
+}
+
+.mainTop {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    gap: 7px;
+    color: white;
+    bottom: 400px;
+    @media screen and (max-width: 425px) {
+        flex-direction: column;
+        bottom: 80px;
+        font-size: 1.2rem;
+    } 
+    @media screen and (max-width: 768px) and (min-width: 426px) {
+        flex-direction: column;
+        bottom: 80px;
+        font-size: 1.2rem;
+    } 
+    @media screen and (max-width: 1420px) and (min-width: 769px) {
+        flex-direction: column;
+        bottom: 265px;
+    }
+}
+
+.mainText p {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    color: rgb(180, 179, 179);
+    @media screen and (max-width: 425px) {
+        font-size: 1.5rem;
+        color: rgb(230, 227, 227);
+    }
+    @media screen and (max-width: 768px) and (min-width: 426px) {
+        font-size: 1.5rem;
+        color: rgb(230, 227, 227);
+    }
+}
+
+.mainButton {
+    height: 7vh;
+    width: 8%;
+    position: absolute;
+    border-radius: 30px;
+    border: none;
+    background-color: blue;
+    color: white;
+    @media screen and (max-width: 425px) {
+        width: 30%;
+    }
+    @media screen and (max-width: 768px) and (min-width: 426px) {
+        width: 30%;
+    }
+}
+
+.mainButton:hover {
+    cursor: pointer;
+    background-color: rgb(78, 78, 248);
+} 
+
+.awardWin {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    width: 85%;
+    height: 90vh;
+    margin: auto;
+    margin-top: -100px;
+    @media screen and (max-width: 425px) {
+        height: 210vh;
+        width: 100%;
+    }
+    @media screen and (max-width: 768px) and (min-width: 426px) {
+        height: 178vh;
+        width: 100%;
+    }
+}
+
+.awardWin h2 {
+    padding: 30px 0px 0px 30px;
+}
+
+.lower {
+    display: flex;
+    margin-top: 40px;
+    gap: 40px;
+    @media screen and (max-width: 425px) {
+        flex-direction: column;
+        gap: 5px;
+    }
+    @media screen and (max-width: 768px) and (min-width: 426px) {
+        flex-direction: column;
+    }
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    @media screen and (max-width: 425px) {
+        padding-left: 27px;
+        gap: 40px;
+    }
+    @media screen and (max-width: 768px) and (min-width: 426px) {
+        padding-left: 27px;
+        gap: 40px;
+    }
+}
+
+.up {
+    display: flex;
+    @media screen and (max-width: 425px) {
+        flex-direction: column;
+        gap: 40px;
+    }
+    @media screen and (max-width: 768px) and (min-width: 426px) {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+.down {
+    display: flex;
+    @media screen and (max-width: 425px) {
+        flex-direction: column;
+        gap: 40px;
+    }
+    @media screen and (max-width: 768px) and (min-width: 426px) {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+
+.lowerImg {
+    background-image: url("../../component/Images/wavy_tech.jpg");
+    width: 60%;
+    height: 60vh;
+    margin-left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    @media screen and (max-width: 425px) {
+        width: 84%;
+    }
+}
+
+

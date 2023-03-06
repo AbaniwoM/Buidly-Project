@@ -1,0 +1,180 @@
+.footCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(46, 46, 46);
+    height: 100vh;
+    gap: 40px;
+    @media screen and (max-width: 760px) {
+        height: 140vh;
+        gap: 25px;
+    }
+    @media screen and (max-width: 768px) and (min-width: 760px) {
+        height: 120vh;
+    }
+}
+
+.upp {
+    display: grid;
+    grid-template-areas: 
+      'ftAbout ftFeatures ftFollow ftNews'
+    ;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    width: 80%;
+    align-self: center;
+    @media screen and (max-width: 425px) {
+        grid-template-areas: 
+           'ftAbout'
+           'ftFeatures'
+           'ftFollow'
+           'ftNews'
+        ;
+    }
+    @media screen and (max-width: 759px) and (min-width: 426px) {
+        grid-template-areas: 
+           'ftAbout'
+           'ftFeatures'
+           'ftFollow'
+           'ftNews'
+        ;
+    }
+    @media screen and (max-width: 768px) and (min-width: 760px) {
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        width: 90%;
+        align-self: center;
+    }
+}
+
+.upp h3 {
+    color: white;
+}
+
+.ftAbout {
+    grid-area: ftAbout;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ftAbout p {
+    color: rgb(160, 158, 158);
+    width: 70%;
+    line-height: 30px;
+    @media screen and (max-width: 425px) {
+        width: 100%;
+    }
+    @media screen and (max-width: 759px) and (min-width: 426px) {
+        width: 80vw;
+    }
+}
+
+.ftFeatures {
+    grid-area: ftFeatures;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    @media screen and (max-width: 425px) {
+        margin-top: 25px;
+    }
+    @media screen and (max-width: 759px) and (min-width: 426px) {
+        margin-top: 25px;
+    }
+}
+
+.ftFollow {
+    grid-area: ftFollow;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    @media screen and (max-width: 425px) {
+        margin-top: 25px;
+    }
+    @media screen and (max-width: 759px) and (min-width: 426px) {
+        margin-top: 25px;
+    }
+}
+
+.ftNews {
+    grid-area: ftNews;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    @media screen and (max-width: 425px) {
+        margin-top: 25px;
+    }
+    @media screen and (max-width: 759px) and (min-width: 426px) {
+        margin-top: 25px;
+    }
+}
+
+.ftFeatures ul {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.ftFeatures li {
+    list-style-type: none;
+    color: rgb(160, 158, 158);
+}
+
+.ftIcons {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 1.3rem;
+    color: rgb(160, 158, 158);
+}
+
+.ftIcons li:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.emailInput {
+    display: flex;
+}
+
+.emailInput input {
+    border-radius: 20px 0px 0px 20px;
+    border: 1px solid rgb(160, 158, 158);
+    background: transparent;
+    padding: 10px 0px 10px 10px;
+    color: white;
+    outline: none;
+}
+
+.emailInput button {
+    border-radius: 0px 20px 20px 0px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 14px 10px 5px;
+    cursor: pointer;
+}
+
+.emailInput button:hover {
+    background-color: rgb(78, 78, 248);
+}
+
+.ftLine {
+    border-bottom: 1px solid rgb(160, 158, 158);
+    width: 80%;
+    margin-top: 90px;
+}
+
+.downn p {
+    color: rgb(160, 158, 158);
+    @media screen and (max-width: 425px) {
+        width: 65%;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+.ftSpan:hover {
+    cursor: pointer;
+    color: white;
+}
+

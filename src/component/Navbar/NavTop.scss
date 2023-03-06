@@ -1,0 +1,51 @@
+.navTopContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 7vh;
+    border-bottom: 1px solid rgb(231, 226, 226);
+    @media screen and (max-width: 425px) {
+        display: none;
+    }
+    @media screen and (max-width: 768px) and (min-width: 426px) {
+        display: none;
+    }
+}
+
+.contact {
+    display: flex;
+    gap: 30px;
+}
+
+.detail {
+    display: flex;
+    gap: 5px;
+}
+
+.detail h2 {
+    font-size: 1.1rem;
+}
+
+.detail h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(78, 78, 223);
+    cursor: pointer;
+}
+
+.detail h3:hover {
+    color: rgb(245, 88, 88);
+}
+
+.icons {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 1.3rem;
+}
+
+.icons li:hover {
+    cursor: pointer;
+    color: rgb(97, 96, 96);
+}
