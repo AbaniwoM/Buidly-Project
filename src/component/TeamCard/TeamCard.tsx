@@ -13,9 +13,7 @@ const TeamCard = ({ img, name, job}: TestCardProps) => {
   const win: Window = window;
   return (
     <div className="box-container">
-       <div className="tmImg">
-           <img src={img} alt={"img"} />
-        </div>
+       <img src={img} alt={"img"} className="tmImg" />
        <div className="introd">
             <div className="nam">{name}</div>
             <div className="jb">{job}</div>
